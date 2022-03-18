@@ -23,5 +23,6 @@ module.exports = {
     'vue/require-prop-types': 'off',
     'vue/require-default-prop': 'off',
     'vue/multi-word-component-names': 'off',
+    'vue/valid-v-for': 'off',
   },
 }
