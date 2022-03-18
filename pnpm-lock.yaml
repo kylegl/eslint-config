@@ -16,8 +16,8 @@ importers:
 
   packages/all:
     specifiers:
-      '@antfu/eslint-config-react': ^0.18.0
-      '@antfu/eslint-config-vue': ^0.18.0
+      '@antfu/eslint-config-react': ^0.18.8
+      '@antfu/eslint-config-vue': ^0.18.8
       '@typescript-eslint/eslint-plugin': ^5.13.0
       '@typescript-eslint/parser': ^5.13.0
       eslint: ^8.10.0
@@ -25,6 +25,7 @@ importers:
       eslint-plugin-eslint-comments: ^3.2.0
       eslint-plugin-html: ^6.2.0
       eslint-plugin-import: ^2.25.4
+      eslint-plugin-jest: ^26.1.1
       eslint-plugin-jsonc: ^2.2.1
       eslint-plugin-n: ^15.0.1
       eslint-plugin-promise: ^6.0.0
@@ -42,6 +43,7 @@ importers:
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.10.0
       eslint-plugin-html: 6.2.0
       eslint-plugin-import: 2.25.4_eslint@8.10.0
+      eslint-plugin-jest: 26.1.1_ae044a1ab58e45a57c08c8d47d35cfe2
       eslint-plugin-jsonc: 2.2.1_eslint@8.10.0
       eslint-plugin-n: 15.0.1_eslint@8.10.0
       eslint-plugin-promise: 6.0.0_eslint@8.10.0
@@ -86,7 +88,7 @@ importers:
 
   packages/react:
     specifiers:
-      '@antfu/eslint-config-ts': ^0.18.0
+      '@antfu/eslint-config-ts': ^0.18.8
       eslint: ^8.10.0
       eslint-plugin-react: ^7.29.3
       react: ^17.0.2
@@ -101,7 +103,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@antfu/eslint-config-basic': ^0.18.0
+      '@antfu/eslint-config-basic': ^0.18.8
       '@typescript-eslint/eslint-plugin': ^5.13.0
       '@typescript-eslint/parser': ^5.13.0
       eslint: ^8.10.0
@@ -114,7 +116,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@antfu/eslint-config-ts': ^0.18.0
+      '@antfu/eslint-config-ts': ^0.18.8
       eslint: ^8.10.0
       eslint-plugin-vue: ^8.5.0
     dependencies:
@@ -2197,6 +2199,27 @@ packages:
       object.values: 1.1.5
       resolve: 1.20.0
       tsconfig-paths: 3.12.0
+    dev: false
+
+  /eslint-plugin-jest/26.1.1_ae044a1ab58e45a57c08c8d47d35cfe2:
+    resolution: {integrity: sha512-HRKOuPi5ADhza4ZBK5ufyNXy28bXXkib87w+pQqdvBhSTsamndh6sIAKPAUl8y0/n9jSWBdTPslrwtKWqkp8dA==}
+    engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    peerDependencies:
+      '@typescript-eslint/eslint-plugin': ^5.0.0
+      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+      jest: '*'
+    peerDependenciesMeta:
+      '@typescript-eslint/eslint-plugin':
+        optional: true
+      jest:
+        optional: true
+    dependencies:
+      '@typescript-eslint/eslint-plugin': 5.13.0_33fffc354ccfa91fbe7d1677b9395a0a
+      '@typescript-eslint/utils': 5.13.0_eslint@8.10.0+typescript@4.6.2
+      eslint: 8.10.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
     dev: false
 
   /eslint-plugin-jsonc/2.2.1_eslint@8.10.0:

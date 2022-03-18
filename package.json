@@ -1,8 +1,8 @@
 {
-  "name": "@antfu/eslint-config-monorepo",
-  "private": true,
+  "name": "@kylegl/eslint-config-monorepo",
+  "private": false,
   "license": "MIT",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "Kyle Lauber <linkdevk@gmail.com> (https://github.com/linkdevk/)",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint .",
