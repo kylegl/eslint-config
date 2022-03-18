@@ -1,10 +1,10 @@
 {
-  "name": "@antfu/eslint-config-basic",
+  "name": "@kylegl/eslint-config-basic",
   "version": "0.18.9",
   "description": "",
   "keywords": [],
   "license": "MIT",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "Kyle Lauber <linkdevk@gmail.com> (https://github.com/linkdevk/)",
   "main": "index.js",
   "files": [
     "index.js"
@@ -34,5 +34,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "82648bad33416df943908895215b75277f4bf036"
 }
