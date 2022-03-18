@@ -1,10 +1,10 @@
 {
-  "name": "@antfu/eslint-config-ts",
+  "name": "@kylegl/eslint-config-ts",
   "version": "0.18.9",
   "description": "",
   "keywords": [],
   "license": "MIT",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "Kyle Lauber <linkdevk@gmail.com> (https://github.com/linkdevk/)",
   "main": "index.js",
   "files": [
     "index.js"
@@ -17,7 +17,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@antfu/eslint-config-basic": "^0.18.9",
+    "@kylegl/eslint-config-basic": "^0.18.9",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0"
   },
