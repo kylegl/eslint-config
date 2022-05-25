@@ -12,10 +12,10 @@
   },
   "licnese": "MIT",
   "devDependencies": {
-    "@kylegl/eslint-config": "workspace:^0.18.18",
+    "@kylegl/eslint-config": "*",
     "bumpp": "^7.1.1",
     "eslint": "^8.10.0",
-    "eslint-plugin-antfu": "^0.24.2",
+    "eslint-plugin-antfu": "workspace:*",
     "typescript": "^4.6.2"
   }
 }
