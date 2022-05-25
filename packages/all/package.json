@@ -2,11 +2,11 @@
   "name": "@kylegl/eslint-config",
   "version": "1.0.7",
   "description": "Kyle's ESLint config",
+  "author": "Kyle Lauber <lauber.kyle@gmail.com> (https://github.com/kylegl/)",
+  "license": "MIT",
   "keywords": [
     "eslint-config"
   ],
-  "license": "MIT",
-  "author": "Kyle Lauber <lauber.kyle@gmail.com> (https://github.com/kylegl/)",
   "main": "index.js",
   "files": [
     "index.js"

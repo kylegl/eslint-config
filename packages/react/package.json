@@ -2,9 +2,9 @@
   "name": "@kylegl/eslint-config-react",
   "version": "1.0.7",
   "description": "",
-  "keywords": [],
-  "license": "MIT",
   "author": "Kyle Lauber <lauber.kyle@gmail.com> (https://github.com/kylegl/)",
+  "license": "MIT",
+  "keywords": [],
   "main": "index.js",
   "files": [
     "index.js"
