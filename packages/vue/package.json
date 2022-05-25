@@ -1,10 +1,10 @@
 {
   "name": "@kylegl/eslint-config-vue",
-  "version": "0.18.18",
+  "version": "1.0.1",
   "description": "",
   "keywords": [],
   "license": "MIT",
-  "author": "Kyle Lauber <linkdevk@gmail.com> (https://github.com/linkdevk/)",
+  "author": "Kyle Lauber <lauber.kyle@gmail.com> (https://github.com/kylegl/)",
   "main": "index.js",
   "files": [
     "index.js"
@@ -12,15 +12,11 @@
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
-    "@kylegl/eslint-config-ts": "^0.18.18",
-    "eslint-plugin-vue": "^8.5.0"
+    "@kylegl/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.0.1"
   },
   "devDependencies": {
-    "eslint": "^8.10.0"
-  },
-  "gitHead": "82648bad33416df943908895215b75277f4bf036"
+    "eslint": "^8.16.0"
+  }
 }

@@ -1,13 +1,13 @@
 {
   "name": "@kylegl/eslint-config-basic",
-  "version": "0.18.18",
+  "version": "1.0.1",
   "description": "",
   "keywords": [],
   "license": "MIT",
-  "author": "Kyle Lauber <linkdevk@gmail.com> (https://github.com/linkdevk/)",
+  "author": "Kyle Lauber <lauber.kyle@gmail.com> (https://github.com/kylegl/)",
   "main": "index.js",
   "files": [
-    "index.js"
+    "*.js"
   ],
   "scripts": {
     "lint": "eslint . --config=index.js"
@@ -16,7 +16,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-config-standard": "17.0.0-1",
+    "eslint-plugin-antfu": "workspace:*",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.25.4",
@@ -31,9 +31,5 @@
   },
   "devDependencies": {
     "eslint": "^8.10.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "82648bad33416df943908895215b75277f4bf036"
+  }
 }
