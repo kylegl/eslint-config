@@ -1,6 +1,6 @@
 {
   "name": "@kylegl/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Kyle's ESLint config",
   "keywords": [
     "eslint-config"
