@@ -15,16 +15,16 @@ module.exports = {
   ],
   extends: [
     'plugin:vue/vue3-recommended',
-    '@antfu/eslint-config-ts',
+    '@kylegl/eslint-config-ts',
   ],
   rules: {
-    "vue/max-attributes-per-line": ["error", {
-      "singleline": {
-        "max": 3
-      },      
-      "multiline": {
-        "max": 1
-      }
+    'vue/max-attributes-per-line': ['error', {
+      singleline: {
+        max: 3,
+      },
+      multiline: {
+        max: 1,
+      },
     }],
     'vue/no-v-html': 'off',
     'vue/require-prop-types': 'off',
