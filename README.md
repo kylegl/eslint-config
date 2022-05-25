@@ -1,5 +1,7 @@
 # @kylegl/eslint-config
 
+## CREDIT goes to antfu. This is a variation of his config. See links at bottom of page.
+
 [![npm](https://img.shields.io/npm/v/@kylegl/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@kylegl/eslint-config)
 
 - Single quotes, no semi
@@ -14,14 +16,14 @@
 ### Install
 
 ```bash
-pnpm add -D eslint @antfu/eslint-config
+pnpm add -D eslint @kylegl/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@antfu"
+  "extends": "@kylegl"
 }
 ```
 
